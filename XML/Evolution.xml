@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+	<!-- TODO: replace this Asset with your own XML asset data. -->
+<Levels>	
+
+	<!-- "Toolhouse","Forge","Generator","Vault","Barrel","Summon","Academy","Classroom","Chessboard","Globe","Workshop" "Tatami"-->
+	<!-- "ArcherTower","Cannon" -->
+	<!-- 	"StoneTower","StoneWallNE","StoneWallNW",
+			"WoodCornerN","WoodCornerS","WoodCornerE","WoodCornerW","WoodWallNE","WoodWallNW",
+			"WoodEndNE","WoodEndNW","WoodEndSE","WoodEndSW"-->
+	<!-- "StoneWall","WoodFence"-->
+		
+	<Level>	<!-- 00 -->
+		<MaxBuildings>1,2,2,1,1,1,1,1,1,1,1,1</MaxBuildings>			<!-- max number of buildings - includes all, production and army -->
+		<MaxWeapons>1,1,1,1,1,1</MaxWeapons>							<!-- max number of weapons -->					
+		<MaxWalls>25,25</MaxWalls>										<!-- max number of walls -->	
+		<MaxAmbients>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</MaxAmbients>		<!-- max number of ambient elements -->				
+	</Level>	
+	
+	<Level>	<!-- 01 -->
+		<MaxBuildings>2,2,2,1,1,1,1,1,1,1,1,1</MaxBuildings>	
+		<MaxWeapons>2,2,2,1,1,1</MaxWeapons>							
+		<MaxWalls>50,50</MaxWalls>	
+		<MaxAmbients>2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2</MaxAmbients>							
+	</Level>
+
+	<Level>	<!-- 02 -->
+		<MaxBuildings>3,3,3,1,1,1,1,1,1,1,1,1</MaxBuildings>	
+		<MaxWeapons>2,2,2,2,2,2</MaxWeapons>							
+		<MaxWalls>75,75</MaxWalls>	
+		<MaxAmbients>3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3</MaxAmbients>				
+	</Level>
+	
+	<Level>	<!-- 03 -->
+		<MaxBuildings>4,3,3,1,1,1,1,1,1,1,1,1</MaxBuildings>	
+		<MaxWeapons>3,3,3,2,2,2</MaxWeapons>							
+		<MaxWalls>100,100</MaxWalls>	
+		<MaxAmbients>4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4</MaxAmbients>				
+	</Level>				
+	
+	<Level>	<!-- 04 -->
+		<MaxBuildings>5,4,4,2,2,2,2,2,1,1,1,2</MaxBuildings>	
+		<MaxWeapons>3,3,3,3,3,3</MaxWeapons>							
+		<MaxWalls>125,125</MaxWalls>
+		<MaxAmbients>5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5</MaxAmbients>					
+	</Level>	
+	
+	<Level>	<!-- 05 -->
+		<MaxBuildings>6,4,4,2,2,2,2,2,1,1,1,2</MaxBuildings>	
+		<MaxWeapons>4,4,4,3,3,3</MaxWeapons>							
+		<MaxWalls>150,150</MaxWalls>
+		<MaxAmbients>6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6</MaxAmbients>					
+	</Level>
+	
+	<Level>	<!-- 06 -->
+		<MaxBuildings>7,5,5,2,2,2,2,2,1,1,1,2</MaxBuildings>	
+		<MaxWeapons>4,4,4,4,4,4</MaxWeapons>							
+		<MaxWalls>175,175</MaxWalls>
+		<MaxAmbients>2,2</MaxAmbients>					
+	</Level>
+	
+	<Level>	<!-- 07 -->
+		<MaxBuildings>8,5,5,2,2,2,2,2,1,1,1,2</MaxBuildings>	
+		<MaxWeapons>5,5,5,4,4,4</MaxWeapons>							
+		<MaxWalls>200,200</MaxWalls>
+		<MaxAmbients>7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7</MaxAmbients>					
+	</Level>
+	
+	<Level>	<!-- 08 -->
+		<MaxBuildings>9,6,6,3,3,2,2,2,1,1,1,2</MaxBuildings>	
+		<MaxWeapons>5,5,5,5,5,5</MaxWeapons>							
+		<MaxWalls>225,225</MaxWalls>	
+		<MaxAmbients>8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8</MaxAmbients>				
+	</Level>
+		
+	<Level>	<!-- 09 -->
+		<MaxBuildings>10,6,6,3,3,2,2,2,1,1,1,2</MaxBuildings>	
+		<MaxWeapons>6,6,6,5,5,5</MaxWeapons>							
+		<MaxWalls>250,250</MaxWalls>	
+		<MaxAmbients>9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9</MaxAmbients>				
+	</Level>
+	<Level>	<!-- 10 -->
+		<MaxBuildings>100,100,100,100,100,100,100,100,100,100,100,100</MaxBuildings>	
+		<MaxWeapons>100,100,100,100,100,100</MaxWeapons>							
+		<MaxWalls>2000,2000</MaxWalls>	
+		<MaxAmbients>100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100</MaxAmbients>				
+	</Level>
+
+	<!-- couldn't decide wether to use an xml script or automatic algorithm -->	
+</Levels>
+
+

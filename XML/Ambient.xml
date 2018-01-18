@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" ?>
+	<!-- TODO: replace this Asset with your own XML asset data. -->
+<Ambients>	
+
+	<Ambient>									<!-- Palm Trees -->
+		<Name>Palm Tree A</Name>	
+		<Description>Palm Tree description.</Description>								
+		<Currency>Mana</Currency>						
+		<Price>100</Price>	
+		<TimeToBuild>10</TimeToBuild>								
+		<XpAward>100</XpAward>	
+	</Ambient>		
+	<Ambient>
+		<Name>Palm Tree B</Name>	
+		<Description>Palm Tree description.</Description>								
+		<Currency>Mana</Currency>						
+		<Price>100</Price>	
+		<TimeToBuild>10</TimeToBuild>								
+		<XpAward>110</XpAward>	
+	</Ambient>	
+
+	<Ambient>
+		<Name>Palm Tree C</Name>	
+		<Description>Palm Tree description.</Description>								
+		<Currency>Mana</Currency>						
+		<Price>100</Price>	
+		<TimeToBuild>10</TimeToBuild>								
+		<XpAward>120</XpAward>	
+	</Ambient>
+	<Ambient>
+		<Name>Palm Tree D</Name>	
+		<Description>Palm Tree description.</Description>								
+		<Currency>Mana</Currency>						
+		<Price>100</Price>	
+		<TimeToBuild>10</TimeToBuild>								
+		<XpAward>130</XpAward>	
+	</Ambient>
+
+	<Ambient>									<!-- Green Trees -->
+		<Name>Tall Tree A</Name>	
+		<Description>Tall Tree description.</Description>								
+		<Currency>Mana</Currency>						
+		<Price>100</Price>	
+		<TimeToBuild>10</TimeToBuild>								
+		<XpAward>100</XpAward>	
+	</Ambient>
+
+	<Ambient>
+		<Name>Tall Tree B</Name>	
+		<Description>Tall Tree description.</Description>								
+		<Currency>Mana</Currency>						
+		<Price>100</Price>	
+		<TimeToBuild>10</TimeToBuild>								
+		<XpAward>110</XpAward>	
+	</Ambient>
+
+	<Ambient>
+		<Name>Small Tree</Name>	
+		<Description>Small Tree description.</Description>								
+		<Currency>Mana</Currency>						
+		<Price>100</Price>	
+		<TimeToBuild>10</TimeToBuild>								
+		<XpAward>120</XpAward>	
+	</Ambient>
+
+	<Ambient>									<!-- Flag -->
+		<Name>Flag</Name>	
+		<Description>Flag description.</Description>								
+		<Currency>Gold</Currency>						
+		<Price>100</Price>	
+		<TimeToBuild>10</TimeToBuild>								
+		<XpAward>100</XpAward>	
+	</Ambient>
+
+	<Ambient>									<!-- Flowers -->
+		<Name>Anthurium Pink</Name>	
+		<Description>Anthurium Pink description.</Description>								
+		<Currency>Gold</Currency>						
+		<Price>100</Price>	
+		<TimeToBuild>10</TimeToBuild>								
+		<XpAward>100</XpAward>	
+	</Ambient>
+
+	<Ambient>									
+		<Name>Daffodils</Name>	
+		<Description>Daffodils description.</Description>								
+		<Currency>Gold</Currency>						
+		<Price>110</Price>	
+		<TimeToBuild>10</TimeToBuild>								
+		<XpAward>110</XpAward>	
+	</Ambient>
+	<Ambient>									
+		<Name>Foxglove</Name>	
+		<Description>Foxglove description.</Description>								
+		<Currency>Gold</Currency>						
+		<Price>110</Price>	
+		<TimeToBuild>10</TimeToBuild>								
+		<XpAward>120</XpAward>	
+	</Ambient>
+	<Ambient>									
+		<Name>Ginger</Name>	
+		<Description>Ginger description.</Description>								
+		<Currency>Gold</Currency>						
+		<Price>110</Price>	
+		<TimeToBuild>10</TimeToBuild>								
+		<XpAward>130</XpAward>	
+	</Ambient>
+	<Ambient>									
+		<Name>Heather</Name>	
+		<Description>Heather description.</Description>								
+		<Currency>Gold</Currency>						
+		<Price>110</Price>	
+		<TimeToBuild>10</TimeToBuild>								
+		<XpAward>140</XpAward>	
+	</Ambient>		
+	<Ambient>									
+		<Name>Pansies</Name>	
+		<Description>Pansies description.</Description>								
+		<Currency>Gold</Currency>						
+		<Price>110</Price>	
+		<TimeToBuild>10</TimeToBuild>								
+		<XpAward>150</XpAward>	
+	</Ambient>
+	<Ambient>									
+		<Name>Protea</Name>	
+		<Description>Protea description.</Description>								
+		<Currency>Gold</Currency>						
+		<Price>110</Price>	
+		<TimeToBuild>10</TimeToBuild>								
+		<XpAward>160</XpAward>	
+	</Ambient>
+
+	<Ambient>									
+		<Name>Scarlet Star</Name>	
+		<Description>Scarlet Star Bromeliad description.</Description>								
+		<Currency>Gold</Currency>						
+		<Price>110</Price>	
+		<TimeToBuild>10</TimeToBuild>								
+		<XpAward>170</XpAward>	
+	</Ambient>
+
+
+</Ambients>
+
+
+		

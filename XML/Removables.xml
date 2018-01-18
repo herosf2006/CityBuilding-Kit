@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+	<!-- TODO: replace this Asset with your own XML asset data. -->
+<Removables>	
+
+	<Removable>
+		<Name>ClamA</Name>	
+		<RemoveTime>5</RemoveTime>
+		<Currency>Gold</Currency>				<!-- Save as 0 Gold 1 Mana -->
+		<RemovePrice>50</RemovePrice>
+		<XpAward>2</XpAward>
+	</Removable>		
+	<Removable>
+		<Name>ClamB</Name>		
+		<RemoveTime>5</RemoveTime>
+		<Currency>Gold</Currency>				
+		<RemovePrice>100</RemovePrice>
+		<XpAward>2</XpAward>
+	</Removable>		
+	<Removable>
+		<Name>ClamC</Name>		
+		<RemoveTime>5</RemoveTime>
+		<Currency>Gold</Currency>				
+		<RemovePrice>150</RemovePrice>
+		<XpAward>2</XpAward>
+	</Removable>	
+	<Removable>
+		<Name>TreeA</Name>		
+		<RemoveTime>5</RemoveTime>
+		<Currency>Mana</Currency>				
+		<RemovePrice>100</RemovePrice>
+		<XpAward>2</XpAward>
+	</Removable>		
+	<Removable>
+		<Name>TreeB</Name>		
+		<RemoveTime>5</RemoveTime>
+		<Currency>Mana</Currency>				
+		<RemovePrice>200</RemovePrice>
+		<XpAward>2</XpAward>
+	</Removable>		
+	<Removable>
+		<Name>TreeC</Name>		
+		<RemoveTime>5</RemoveTime>
+		<Currency>Mana</Currency>				
+		<RemovePrice>300</RemovePrice>
+		<XpAward>2</XpAward>
+	</Removable>	
+	<Removable>
+		<Name>TreeD</Name>		
+		<RemoveTime>5</RemoveTime>
+		<Currency>Mana</Currency>				
+		<RemovePrice>400</RemovePrice>
+		<XpAward>2</XpAward>
+	</Removable>	
+	
+</Removables>
+
+

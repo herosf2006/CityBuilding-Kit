@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" ?>
+	<!-- TODO: replace this Asset with your own XML asset data. -->
+<Weapons>	
+
+	<Weapon>
+		<Name>Cannon</Name>		
+		<Description>Heavy Artilery.</Description>	
+									
+		<Currency>Gold</Currency>					<!-- save as 0 Gold 1 Mana 2 Crystals to buy -->			
+		<Price>100</Price>							<!-- amount of resource necessary to pay for the building -->						
+				
+		<TimeToBuild>30</TimeToBuild>				<!-- the time (in minutes) needed to create the building -->
+
+		<DamagePerSecond>25</DamagePerSecond>
+		<Life>200</Life>							<!-- life vs damage -->
+		<Range>50</Range>
+		<FireRate>2</FireRate>						<!-- shots per second -->
+		<DamageType>Single</DamageType>				<!-- Single target, Area splash-->
+		<TargetType>Ground</TargetType>				<!-- Ground, Air, Dual -->
+		<PreferredTarget>Any</PreferredTarget>		<!-- Type of specific units -->
+		<DamageBonus>0</DamageBonus>				<!-- Against preferred target -->
+
+		<XpAward>100</XpAward>						<!-- experience awarded for the completion of an object -->
+		<Upgrades>0</Upgrades>						<!-- how many levels does it have to max; -->		
+		<UpRatio>0</UpRatio>						<!-- how much can you upgrade in relation to HQ - half, equal, double; -->							
+	</Weapon>		
+
+	<Weapon>
+		<Name>Archer Tower</Name>		
+		<Description>Ranged.</Description>	
+									
+		<Currency>Gold</Currency>					
+		<Price>100</Price>												
+				
+		<TimeToBuild>30</TimeToBuild>				
+
+		<DamagePerSecond>25</DamagePerSecond>
+		<Life>200</Life>							
+		<Range>50</Range>
+		<FireRate>2</FireRate>						
+		<DamageType>Single</DamageType>				
+		<TargetType>Dual</TargetType>				
+		<PreferredTarget>Any</PreferredTarget>		
+		<DamageBonus>0</DamageBonus>				
+
+		<XpAward>100</XpAward>						
+		<Upgrades>0</Upgrades>							
+		<UpRatio>0</UpRatio>												
+	</Weapon>	
+		
+	<Weapon>
+		<Name>Catapult</Name>		
+		<Description>Heavy.</Description>	
+									
+		<Currency>Gold</Currency>					
+		<Price>200</Price>												
+				
+		<TimeToBuild>160</TimeToBuild>				
+
+		<DamagePerSecond>25</DamagePerSecond>
+		<Life>200</Life>							
+		<Range>50</Range>
+		<FireRate>2</FireRate>	
+		<DamageType>Area</DamageType>				
+		<TargetType>Ground</TargetType>				
+		<PreferredTarget>Any</PreferredTarget>		
+		<DamageBonus>0</DamageBonus>				
+
+		<XpAward>100</XpAward>						
+		<Upgrades>0</Upgrades>							
+		<UpRatio>0</UpRatio>												
+	</Weapon>	
+
+	<Weapon>
+		<Name>Drone</Name>		
+		<Description>Light Aircraft.</Description>	
+									
+		<Currency>Gold</Currency>					
+		<Price>300</Price>												
+				
+		<TimeToBuild>180</TimeToBuild>				
+
+		<DamagePerSecond>25</DamagePerSecond>
+		<Life>200</Life>							
+		<Range>50</Range>
+		<FireRate>2</FireRate>	
+		<DamageType>Single</DamageType>				
+		<TargetType>Dual</TargetType>				
+		<PreferredTarget>Any</PreferredTarget>		
+		<DamageBonus>0</DamageBonus>				
+
+		<XpAward>100</XpAward>						
+		<Upgrades>0</Upgrades>							
+		<UpRatio>0</UpRatio>												
+	</Weapon>	
+
+	<Weapon>
+		<Name>Bomb</Name>		
+		<Description>Explosive Device.</Description>	
+									
+		<Currency>Gold</Currency>					
+		<Price>200</Price>												
+				
+		<TimeToBuild>240</TimeToBuild>				
+
+		<DamagePerSecond>100</DamagePerSecond>
+		<Life>200</Life>							
+		<Range>50</Range>
+		<FireRate>2</FireRate>	
+		<DamageType>Area</DamageType>				
+		<TargetType>Ground</TargetType>				
+		<PreferredTarget>Any</PreferredTarget>		
+		<DamageBonus>0</DamageBonus>				
+
+		<XpAward>100</XpAward>						
+		<Upgrades>0</Upgrades>							
+		<UpRatio>0</UpRatio>												
+	</Weapon>	
+
+	<Weapon>
+		<Name>Air Mine</Name>		
+		<Description>Explosive Device.</Description>	
+									
+		<Currency>Gold</Currency>					
+		<Price>200</Price>												
+				
+		<TimeToBuild>240</TimeToBuild>				
+
+		<DamagePerSecond>100</DamagePerSecond>
+		<Life>200</Life>							
+		<Range>50</Range>
+		<FireRate>2</FireRate>	
+		<DamageType>Area</DamageType>				
+		<TargetType>Air</TargetType>				
+		<PreferredTarget>Any</PreferredTarget>		
+		<DamageBonus>0</DamageBonus>				
+
+		<XpAward>100</XpAward>						
+		<Upgrades>0</Upgrades>							
+		<UpRatio>0</UpRatio>												
+	</Weapon>	
+
+</Weapons>
+
+

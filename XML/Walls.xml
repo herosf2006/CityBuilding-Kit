@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" ?>
+	<!-- TODO: replace this Asset with your own XML asset data. -->
+<Walls>	
+
+	<Wall>
+	
+		<Name>Stone Tower</Name>	
+		<Currency>Gold</Currency>				
+		<Price>400</Price>
+		<TimeToBuild>0</TimeToBuild>
+		<Life>400</Life>
+		<XpAward>2</XpAward>
+		<Upgrades>0</Upgrades>						<!-- how many levels does it have to max; -->		
+		<UpRatio>0</UpRatio>						<!-- how much can you upgrade in relation to HQ - half, equal, double; -->		
+	</Wall>		
+	<Wall>
+		
+		<Name>Stone Wall NE</Name>	
+		<Currency>Gold</Currency>			
+		<Price>200</Price>
+		<TimeToBuild>0</TimeToBuild>
+		<Life>200</Life>
+		<XpAward>2</XpAward>
+		<Upgrades>0</Upgrades>						
+		<UpRatio>0</UpRatio>						
+	</Wall>	
+	<Wall>
+		
+		<Name>Stone Wall NW</Name>	
+		<Currency>Gold</Currency>			
+		<Price>200</Price>
+		<TimeToBuild>0</TimeToBuild>
+		<Life>200</Life>
+		<XpAward>2</XpAward>
+		<Upgrades>0</Upgrades>						
+		<UpRatio>0</UpRatio>
+	</Wall>		
+			
+	<Wall>
+	
+		<Name>Wooden Corner N</Name>	
+		<Currency>Gold</Currency>			
+		<Price>150</Price>
+		<TimeToBuild>0</TimeToBuild>
+		<Life>100</Life>
+		<XpAward>1</XpAward>
+		<Upgrades>0</Upgrades>						
+		<UpRatio>0</UpRatio>
+	</Wall>		
+	<Wall>
+	
+		<Name>Wooden Corner S</Name>	
+		<Currency>Gold</Currency>			
+		<Price>150</Price>
+		<TimeToBuild>0</TimeToBuild>
+		<Life>100</Life>
+		<XpAward>1</XpAward>
+		<Upgrades>0</Upgrades>						
+		<UpRatio>0</UpRatio>
+	</Wall>		
+	<Wall>
+	
+		<Name>Wooden Corner E</Name>	
+		<Currency>Gold</Currency>			
+		<Price>150</Price>
+		<TimeToBuild>0</TimeToBuild>
+		<Life>100</Life>
+		<XpAward>1</XpAward>
+		<Upgrades>0</Upgrades>						
+		<UpRatio>0</UpRatio>
+	</Wall>		
+	<Wall>
+	
+		<Name>Wooden Corner W</Name>	
+		<Currency>Gold</Currency>			
+		<Price>150</Price>
+		<TimeToBuild>0</TimeToBuild>
+		<Life>100</Life>
+		<XpAward>1</XpAward>
+		<Upgrades>0</Upgrades>						
+		<UpRatio>0</UpRatio>
+	</Wall>		
+					
+	<Wall>
+
+		<Name>Wooden Fence NE</Name>
+		<Currency>Gold</Currency>				
+		<Price>100</Price>
+		<TimeToBuild>0</TimeToBuild>
+		<Life>100</Life>
+		<XpAward>1</XpAward>
+		<Upgrades>0</Upgrades>						
+		<UpRatio>0</UpRatio>
+	</Wall>		
+	<Wall>
+
+		<Name>Wooden Fence NW</Name>
+		<Currency>Gold</Currency>				
+		<Price>100</Price>
+		<TimeToBuild>0</TimeToBuild>
+		<Life>100</Life>
+		<XpAward>1</XpAward>
+		<Upgrades>0</Upgrades>						
+		<UpRatio>0</UpRatio>
+	</Wall>		
+
+
+	<Wall>
+	
+		<Name>Wooden End NE</Name>	
+		<Currency>Gold</Currency>
+		<Price>75</Price>
+		<TimeToBuild>0</TimeToBuild>
+		<Life>100</Life>
+		<XpAward>1</XpAward>	
+		<Upgrades>0</Upgrades>						
+		<UpRatio>0</UpRatio>	
+	</Wall>		
+	<Wall>
+	
+		<Name>Wooden End NW</Name>	
+		<Currency>Gold</Currency>
+		<Price>75</Price>
+		<TimeToBuild>0</TimeToBuild>
+		<Life>100</Life>
+		<XpAward>1</XpAward>	
+		<Upgrades>0</Upgrades>						
+		<UpRatio>0</UpRatio>	
+	</Wall>	
+	<Wall>
+	
+		<Name>Wooden End SE</Name>	
+		<Currency>Gold</Currency>
+		<Price>75</Price>
+		<TimeToBuild>0</TimeToBuild>
+		<Life>100</Life>
+		<XpAward>1</XpAward>	
+		<Upgrades>0</Upgrades>						
+		<UpRatio>0</UpRatio>	
+	</Wall>	
+	<Wall>
+	
+		<Name>Wooden End SW</Name>	
+		<Currency>Gold</Currency>
+		<Price>75</Price>
+		<TimeToBuild>0</TimeToBuild>
+		<Life>100</Life>
+		<XpAward>1</XpAward>	
+		<Upgrades>0</Upgrades>						
+		<UpRatio>0</UpRatio>	
+	</Wall>	
+</Walls>
+
+

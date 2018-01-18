@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8" ?>
+	<!-- TODO: replace this Asset with your own XML asset data. -->
+<Buildings>	
+
+	<Building> <!-- 00 -->		
+		
+		<Name>Dobbit Toolhouse</Name>	
+		<StructureType>Toolhouse</StructureType>	<!--  same as prefab -->	
+
+		<Description>They live in the tiniest of houses, they don't talk much, and they're not much to look at. Yet, you'll never have enough of these guys. We'll make sure of that.</Description>
+								
+		<Currency>Crystals</Currency>				<!-- save as 0 Gold 1 Mana 2 Crystals to buy; production/storage building, buy with gold, produces mana -->			
+		<Price>25</Price>							<!-- amount of resource necessary to pay for the building -->
+		
+		<ProdType>None</ProdType>					<!-- resource produced - gold/mana/none-->	
+		<ProdPerHour>0</ProdPerHour>				<!-- the amount of the resource generated per hour -->			
+
+		<StoreType>None</StoreType>					<!-- None, Internal, Distributed-->
+		<StoreResource>None</StoreResource>			<!-- resource stored - None/Gold/Mana/Dual (gold+mana)/Soldiers-->	
+		<StoreCap>0</StoreCap>						<!-- gold/mana/dual/soldiers storage -->					
+				
+		<TimeToBuild>5</TimeToBuild>				<!-- the time (in minutes) needed to create the building -->
+		<Life>200</Life>							<!-- life vs damage -->
+		<XpAward>100</XpAward>						<!-- experience awarded for the completion of an object -->
+		<Upgrades>0</Upgrades>						<!-- how many levels does it have to max; -->		
+		<UpRatio>0</UpRatio>						<!-- how much can you upgrade in relation to HQ - half, equal, double; -->			
+				
+	</Building>
+	
+	<Building> <!-- 01 -->		
+		
+		<Name>Gold Forge</Name>	
+		<StructureType>Forge</StructureType>	
+
+		<Description>Gold mines are so '2050s. Mages create gold by simply mumbling to themselves. Or pull it out of their, aaa... pointy hats! We never asked. Neither should you. Know your place, little one.</Description>
+								
+		<Currency>Mana</Currency>						
+		<Price>100</Price>						
+		
+		<ProdType>Gold</ProdType>	
+		<ProdPerHour>100</ProdPerHour>	
+
+		<StoreType>Internal</StoreType>					
+		<StoreResource>Gold</StoreResource>			
+		<StoreCap>500</StoreCap>				<!--although it's not centralized, there is an internal storage-->
+						
+		<TimeToBuild>10</TimeToBuild>				
+		<Life>300</Life>							
+		<XpAward>100</XpAward>						
+		<Upgrades>30</Upgrades>	
+		<UpRatio>2</UpRatio>
+		
+	</Building>
+
+	<Building> <!-- 02 -->		
+		
+		<Name>Mana Generator</Name>		
+		<StructureType>Generator</StructureType>	
+
+		<Description>Our blessed brewery. Keeps the population happy. And tranquil. Is Jim Bob up and about yet? He knows this stuff.</Description>
+								
+		<Currency>Gold</Currency>							
+		<Price>100</Price>						
+		
+		<ProdType>Mana</ProdType>	
+		<ProdPerHour>100</ProdPerHour>	
+		
+		<StoreType>Internal</StoreType>					
+		<StoreResource>Mana</StoreResource>			
+		<StoreCap>500</StoreCap>					
+												
+		<TimeToBuild>10</TimeToBuild>				
+		<Life>300</Life>							
+		<XpAward>100</XpAward>						
+		<Upgrades>30</Upgrades>	
+		<UpRatio>2</UpRatio>
+	</Building>
+
+	<Building> <!-- 03 -->		
+		
+		<Name>Gold Vault</Name>	
+		<StructureType>Vault</StructureType>	
+
+		<Description>Like a bank. But with gold. Always empty. Get back to work!</Description>
+								
+		<Currency>Mana</Currency>							
+		<Price>200</Price>						
+		
+		<ProdType>None</ProdType>	
+		<ProdPerHour>0</ProdPerHour>	
+		
+		<StoreType>Distributed</StoreType>					
+		<StoreResource>Gold</StoreResource>					
+		<StoreCap>2500</StoreCap>		
+								
+		<TimeToBuild>15</TimeToBuild>				
+		<Life>400</Life>							
+		<XpAward>100</XpAward>						
+		<Upgrades>50</Upgrades>		
+		<UpRatio>2</UpRatio>
+	</Building>
+
+
+	<Building> <!-- 04 -->		
+		
+		<Name>Mana Barrel</Name>	
+		<StructureType>Barrel</StructureType>		
+
+		<Description>The main pub. Serving mages favorite drink. The last but not least of our problems.</Description>
+								
+		<Currency>Gold</Currency>							
+		<Price>200</Price>						
+		
+		<ProdType>None</ProdType>	
+		<ProdPerHour>0</ProdPerHour>	
+		
+		<StoreType>Distributed</StoreType>					
+		<StoreResource>Mana</StoreResource>						
+		<StoreCap>2500</StoreCap>		
+							
+		<TimeToBuild>15</TimeToBuild>				
+		<Life>400</Life>							
+		<XpAward>100</XpAward>						
+		<Upgrades>50</Upgrades>		
+		<UpRatio>2</UpRatio>
+	</Building>
+
+	<Building> <!-- 05 -->		
+		
+		<Name>Summoning Circle</Name>		<!--center of village-->
+		<StructureType>Summon</StructureType>	
+
+		<Description>Cuckooland HQ. Plus, wizards enjoy summoning weird creatures. More often then not, they're barely finished when they start to run.</Description>
+								
+		<Currency>Mana</Currency>							
+		<Price>1000</Price>						
+		
+		<ProdType>None</ProdType>	
+		<ProdPerHour>0</ProdPerHour>	
+		
+		<StoreType>Distributed</StoreType>					
+		<StoreResource>Dual</StoreResource>						
+		<StoreCap>1000</StoreCap>	
+						
+		<TimeToBuild>120</TimeToBuild>				
+		<Life>1000</Life>							
+		<XpAward>200</XpAward>						
+		<Upgrades>50</Upgrades>		       	<!--keeping the ratio  -->
+		<UpRatio>0</UpRatio>				<!--0 pre-requirements for upgrades -->
+	</Building>
+
+
+	
+
+	<Building> <!-- 06 -->		
+		
+		<Name>Wizard Academy</Name>		<!--Upgrades wizards-->
+		<StructureType>Academy</StructureType>	
+
+		<Description>Rubbing elbows with the finest. A place for training the elite of our magic forces. Or waste 5 years of our lives. It can go either way with this crew.</Description>
+								
+		<Currency>Gold</Currency>							
+		<Price>10000</Price>						
+		
+		<ProdType>None</ProdType>	
+		<ProdPerHour>0</ProdPerHour>
+		
+		<StoreType>None</StoreType>					
+		<StoreResource>None</StoreResource>									
+		<StoreCap>0</StoreCap>		
+							
+		<TimeToBuild>60</TimeToBuild>				
+		<Life>200</Life>							
+		<XpAward>500</XpAward>						
+		<Upgrades>10</Upgrades>		
+		<UpRatio>1</UpRatio>
+	</Building>
+
+	
+
+	<Building> <!-- 07 -->		
+		
+		<Name>Classroom</Name>		<!--Upgrades soldiers-->
+		<StructureType>Classroom</StructureType>	
+
+		<Description>Apprentices. They will be wizards some day. Assuming they graduate. Like... ever.</Description>
+								
+		<Currency>Gold</Currency>								
+		<Price>5000</Price>						
+		
+		<ProdType>None</ProdType>	
+		<ProdPerHour>0</ProdPerHour>	
+		
+		<StoreType>None</StoreType>					
+		<StoreResource>None</StoreResource>						
+		<StoreCap>0</StoreCap>		
+								
+		<TimeToBuild>30</TimeToBuild>				
+		<Life>200</Life>							
+		<XpAward>400</XpAward>						
+		<Upgrades>10</Upgrades>		
+		<UpRatio>1</UpRatio>	
+	</Building>
+		
+
+	<Building> <!-- 08 -->		
+		
+		<Name>Chessboard</Name>			<!--upgrades for soldiers-->
+		<StructureType>Chessboard</StructureType>	
+
+		<Description>This contraption was supposed to make everybody smarter, but our soldiers use it so infrequently that we can neither confirm nor deny it.</Description>
+								
+		<Currency>Mana</Currency>								
+		<Price>3000</Price>						
+		
+		<ProdType>None</ProdType>	
+		<ProdPerHour>0</ProdPerHour>	
+		
+		<StoreType>None</StoreType>					
+		<StoreResource>None</StoreResource>					
+		<StoreCap>0</StoreCap>		
+							
+		<TimeToBuild>60</TimeToBuild>				
+		<Life>100</Life>							
+		<XpAward>200</XpAward>						
+		<Upgrades>0</Upgrades>		
+		<UpRatio>0</UpRatio>
+	</Building>
+		
+		
+
+	<Building> <!-- 09 -->		
+		
+		<Name>Research Globe</Name>		<!-- upgrades magic-->
+		<StructureType>Globe</StructureType>	
+
+		<Description>Knowledge. The final frontier. Or at least that's what we thought. The less you know, the better. Seriously.</Description>
+								
+		<Currency>Mana</Currency>								
+		<Price>20000</Price>						
+		
+		<ProdType>None</ProdType>	
+		<ProdPerHour>0</ProdPerHour>	
+		
+		<StoreType>None</StoreType>					
+		<StoreResource>None</StoreResource>					
+		<StoreCap>0</StoreCap>			
+					
+		<TimeToBuild>120</TimeToBuild>				
+		<Life>200</Life>							
+		<XpAward>500</XpAward>						
+		<Upgrades>10</Upgrades>	
+		<UpRatio>1</UpRatio>
+	</Building>
+
+
+
+	<Building> <!-- 10 -->		
+		
+		<Name>Workshop</Name>		<!--upgrades weapons-->
+		<StructureType>Workshop</StructureType>	
+
+		<Description>If it's wood or metal and it makes strange noises, or there's smoke coming out of it, this is where you come to fix it. Unless it's Friday. Or Monday. Maybe Wednesday... Feel free to call first.</Description>
+								
+		<Currency>Gold</Currency>								
+		<Price>20000</Price>						
+		
+		<ProdType>None</ProdType>	
+		<ProdPerHour>0</ProdPerHour>	
+		
+		<StoreType>None</StoreType>					
+		<StoreResource>None</StoreResource>					
+		<StoreCap>0</StoreCap>		
+							
+		<TimeToBuild>120</TimeToBuild>				
+		<Life>200</Life>							
+		<XpAward>500</XpAward>						
+		<Upgrades>10</Upgrades>	
+		<UpRatio>1</UpRatio>
+	</Building>		
+		
+		
+	<Building> <!-- 11 -->		
+		
+		<Name>Tatami</Name>		<!--houses all population-->
+		<StructureType>Tatami</StructureType>	
+
+		<Description>Once upon a time, in a distant land filled with mistery and magic, a gathering of mighty heroes found a little dog called Squea... Honey? The pancakes are ready!</Description>
+								
+		<Currency>Mana</Currency>								
+		<Price>1000</Price>						
+		
+		<ProdType>None</ProdType>	
+		<ProdPerHour>0</ProdPerHour>	
+
+		<StoreType>Distributed</StoreType>					
+		<StoreResource>Soldiers</StoreResource>						
+		<StoreCap>25</StoreCap>			
+						
+		<TimeToBuild>60</TimeToBuild>				
+		<Life>200</Life>							
+		<XpAward>500</XpAward>						
+		<Upgrades>10</Upgrades>	
+		<UpRatio>2</UpRatio>
+	</Building>	
+		
+	
+</Buildings>
+
+

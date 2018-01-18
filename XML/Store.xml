@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+	<!-- TODO: replace this Asset with your own XML asset data. -->
+<Items>	
+			<!--
+			500   5$
+			1500 10$
+			3500 20$
+			7500 40$
+			15500 80$
+			20000 100$
+			-->
+	<Item>
+		<Name>Handful</Name>
+		<Quantity>500</Quantity>		
+		<Price>5</Price>					
+	</Item>
+
+	<Item>
+		<Name>Pocketful</Name>		
+		<Quantity>1500</Quantity>		
+		<Price>10</Price>				
+	</Item>	
+	
+	<Item>
+		<Name>Wallet</Name>		
+		<Quantity>3500</Quantity>	
+		<Price>20</Price>					
+	</Item>	
+			
+	<Item>
+		<Name>Payday</Name>		
+		<Quantity>7500</Quantity>
+		<Price>40</Price>						
+	</Item>		
+			
+	<Item>
+		<Name>Inheritance</Name>		
+		<Quantity>15500</Quantity>	
+		<Price>80</Price>					
+	</Item>			
+			
+	<Item>
+		<Name>Lottery</Name>		
+		<Quantity>20000</Quantity>		
+		<Price>100</Price>				
+	</Item>			
+</Items>
+
+

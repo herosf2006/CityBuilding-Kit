@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" ?>
+     
+<Units>
+	<Unit>			
+		<Name>Green Alien</Name>		
+		<UnitType>Alien</UnitType>					<!--  same as prefab - instead of clutting the labels list -->	
+		<Description>A smelly alien, green with envy. Maybe it's something he ate?</Description>
+
+		<Currency>Mana</Currency>					<!-- save as 0 Gold 1 Mana 2 Crystals to buy; production/storage building, buy with gold, produces mana -->			
+		<Price>50</Price>							<!-- amount of resource necessary to pay for the unit-->
+		<TimeToBuild>1</TimeToBuild>				<!-- the time (in minutes) needed to create the unit -->
+
+		<Life>200</Life>							<!-- life vs damage -->
+		<Size>1</Size> 								<!--how many population slots the unit occupies-->
+
+		<XpAward>100</XpAward>						<!-- experience awarded for the completion of an object -->
+		<Upgrades>0</Upgrades>						<!-- how many levels does it have to max; -->		
+		<UpRatio>0</UpRatio>						<!-- how much can you upgrade in relation to Academy(serves as HQ reference for units) - half, equal, double; -->	
+	</Unit>
+	
+	<Unit>			
+		<Name>Archer</Name>		
+		<UnitType>Archer</UnitType>					
+		<Description>Enchanted forest's finest.</Description>
+
+		<Currency>Mana</Currency>						
+		<Price>50</Price>							
+		<TimeToBuild>1</TimeToBuild>				
+
+		<Life>200</Life>							
+		<Size>1</Size> 								
+
+		<XpAward>100</XpAward>						
+		<Upgrades>0</Upgrades>							
+		<UpRatio>0</UpRatio>						
+	</Unit>
+
+	<Unit>			
+		<Name>Handy Man</Name>		
+		<UnitType>Handy</UnitType>					
+		<Description>Double the smash, in half the time. And how many beers can this guy handle? </Description>
+
+		<Currency>Mana</Currency>						
+		<Price>100</Price>							
+		<TimeToBuild>1</TimeToBuild>				
+
+		<Life>200</Life>							
+		<Size>2</Size> 								
+
+		<XpAward>100</XpAward>						
+		<Upgrades>0</Upgrades>							
+		<UpRatio>0</UpRatio>						
+	</Unit>
+
+	<Unit>			
+		<Name>Hydra</Name>		
+		<UnitType>Hydra</UnitType>					
+		<Description>It's like a dragon. With no wings.</Description>
+
+		<Currency>Mana</Currency>						
+		<Price>100</Price>							
+		<TimeToBuild>1</TimeToBuild>				
+
+		<Life>200</Life>							
+		<Size>2</Size> 								
+
+		<XpAward>100</XpAward>						
+		<Upgrades>0</Upgrades>							
+		<UpRatio>0</UpRatio>						
+	</Unit>
+
+	<Unit>			
+		<Name>Clockwork tree</Name>		
+		<UnitType>Tree</UnitType>					
+		<Description>Memorabilia for passers by. Flaming arrows, goblets of fire. A lot of underlying issues about being made of kindling.</Description>
+
+		<Currency>Mana</Currency>						
+		<Price>150</Price>							
+		<TimeToBuild>1</TimeToBuild>				
+
+		<Life>200</Life>							
+		<Size>3</Size> 								
+
+		<XpAward>100</XpAward>						
+		<Upgrades>0</Upgrades>							
+		<UpRatio>0</UpRatio>						
+	</Unit>
+
+	<Unit>			
+		<Name>Mage</Name>		
+		<UnitType>Mage</UnitType>					
+		<Description>Minor drinking issues. Mana, fountain of youth, perfume, nail polish. He means well. We go way back.</Description>
+
+		<Currency>Mana</Currency>						
+		<Price>150</Price>							
+		<TimeToBuild>1</TimeToBuild>				
+
+		<Life>200</Life>							
+		<Size>3</Size> 								
+
+		<XpAward>100</XpAward>						
+		<Upgrades>0</Upgrades>							
+		<UpRatio>0</UpRatio>						
+	</Unit>
+
+	<Unit>			
+		<Name>Viking</Name>		
+		<UnitType>Viking</UnitType>					
+		<Description>The antlers are sold separately. The beard is just a fasion statement.</Description>
+
+		<Currency>Mana</Currency>						
+		<Price>200</Price>							
+		<TimeToBuild>1</TimeToBuild>				
+
+		<Life>5000</Life>							
+		<Size>4</Size> 								
+
+		<XpAward>100</XpAward>						
+		<Upgrades>0</Upgrades>							
+		<UpRatio>0</UpRatio>						
+	</Unit>
+
+	<Unit>			
+		<Name>Porcupine</Name>		
+		<UnitType>Porcupine</UnitType>					
+		<Description>Where did this guy come from? We already had an archer. Did Jimmy hire him?</Description>
+
+		<Currency>Mana</Currency>						
+		<Price>200</Price>							
+		<TimeToBuild>1</TimeToBuild>				
+
+		<Life>4000</Life>							
+		<Size>4</Size> 								
+
+		<XpAward>100</XpAward>						
+		<Upgrades>0</Upgrades>							
+		<UpRatio>0</UpRatio>						
+	</Unit>
+
+	<Unit>			
+		<Name>Robot Chicken</Name>		
+		<UnitType>Chicken</UnitType>					
+		<Description>Escaped from Billy Bob's farm last year, with barely a foot. And a lot of anger.</Description>
+
+		<Currency>Mana</Currency>						
+		<Price>250</Price>							
+		<TimeToBuild>1</TimeToBuild>				
+
+		<Life>2000</Life>							
+		<Size>5</Size> 								
+
+		<XpAward>100</XpAward>						
+		<Upgrades>0</Upgrades>							
+		<UpRatio>0</UpRatio>						
+	</Unit>
+
+	<Unit>			
+		<Name>Wisp</Name>		
+		<UnitType>Wisp</UnitType>					
+		<Description>Wheezing through enemy territory. Closest thing to a vampire that we have.</Description>
+
+		<Currency>Mana</Currency>						
+		<Price>250</Price>							
+		<TimeToBuild>1</TimeToBuild>				
+
+		<Life>200</Life>							
+		<Size>5</Size> 								
+
+		<XpAward>100</XpAward>						
+		<Upgrades>0</Upgrades>							
+		<UpRatio>0</UpRatio>						
+	</Unit>
+</Units>
+
